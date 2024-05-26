@@ -1,0 +1,31 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+.tab-item{
+background-color: #4e016a;
+font-size: 30px;
+font-weight: bold;
+color: #fff;
+cursor: pointer;
+padding: 10px 15px;
+border-radius: 8px;
+margin: 2px;
+}
+.active{
+    background: green;
+    border: 1px solid black;
+}
+.content{
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
